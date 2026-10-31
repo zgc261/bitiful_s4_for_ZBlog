@@ -1,0 +1,37 @@
+{
+  "config": {
+    "bucket": "testbucket",
+    "endpoint": "s3.bitiful.net",
+    "region": "cn-east-1",
+    "access_key": "test-access",
+    "secret_key": "test-secret"
+  },
+  "vectors": [
+    {
+      "method": "GET",
+      "uri": "/",
+      "params": {
+        "list-type": "2",
+        "encoding-type": "url",
+        "max-keys": "48",
+        "prefix": "blog/",
+        "continuation-token": "next+/= token"
+      },
+      "query": "continuation-token=next%2B%2F%3D%20token&encoding-type=url&list-type=2&max-keys=48&prefix=blog%2F",
+      "canonical": "GET\n/\ncontinuation-token=next%2B%2F%3D%20token&encoding-type=url&list-type=2&max-keys=48&prefix=blog%2F\ncontent-type:application/xml\nhost:testbucket.s3.bitiful.net\nx-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\nx-amz-date:20261030T010203Z\n\ncontent-type;host;x-amz-content-sha256;x-amz-date\ne3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "authorization": "AWS4-HMAC-SHA256 Credential=test-access/20261030/cn-east-1/s3/aws4_request, SignedHeaders=content-type;host;x-amz-content-sha256;x-amz-date, Signature=ad6767e3161cff6fcecbd8ea7a33c1a3f91090ed680e16bcac1ff06a8b054880",
+      "date": "20261030T010203Z",
+      "digest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "method": "DELETE",
+      "uri": "/blog/2026/10/a.png",
+      "params": {},
+      "query": "",
+      "canonical": "DELETE\n/blog/2026/10/a.png\n\ncontent-type:application/xml\nhost:testbucket.s3.bitiful.net\nx-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\nx-amz-date:20261030T010203Z\n\ncontent-type;host;x-amz-content-sha256;x-amz-date\ne3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "authorization": "AWS4-HMAC-SHA256 Credential=test-access/20261030/cn-east-1/s3/aws4_request, SignedHeaders=content-type;host;x-amz-content-sha256;x-amz-date, Signature=74c851546e4206bf427348e927b1d1094e832c12eb0971fd22cb00506906f51c",
+      "date": "20261030T010203Z",
+      "digest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

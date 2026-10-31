@@ -1,0 +1,13 @@
+{
+  "config": {
+    "region": "cn-east-1",
+    "access_key": "test-access",
+    "secret_key": "test-secret"
+  },
+  "host": "testbucket.s3.bitiful.net",
+  "uri": "/blog/2026/10/test%20image.png",
+  "date": "20261030T010203Z",
+  "digest": "7ba451133c403e85ee98073f28fd640bc9aa5000f0d6fce0f0b06ff7ac4cd9c5",
+  "canonical": "PUT\n/blog/2026/10/test%20image.png\n\ncontent-type:image/png\nhost:testbucket.s3.bitiful.net\nx-amz-content-sha256:7ba451133c403e85ee98073f28fd640bc9aa5000f0d6fce0f0b06ff7ac4cd9c5\nx-amz-date:20261030T010203Z\n\ncontent-type;host;x-amz-content-sha256;x-amz-date\n7ba451133c403e85ee98073f28fd640bc9aa5000f0d6fce0f0b06ff7ac4cd9c5",
+  "authorization": "AWS4-HMAC-SHA256 Credential=test-access/20261030/cn-east-1/s3/aws4_request, SignedHeaders=content-type;host;x-amz-content-sha256;x-amz-date, Signature=436ddb6d428f72a07bab1e2258fb685005748de6b3dcba096ab7412aa8941617"
+}
