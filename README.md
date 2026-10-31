@@ -1,0 +1,2 @@
+# bitiful_s4_for_ZBlog
+ZBlog下支持缤纷云bitiful_s4对象存储，实现图片自动上传和生成链接，并支持上传图片管理。
