@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin version="php">
+  <id>bitiful_s4</id>
+  <name>缤纷云 S4 图片存储</name>
+  <url>https://docs.bitiful.com/bitiful-s4/intro</url>
+  <note>免费开源的缤纷云图片存储插件，支持自定义上传 API、图片域名、本地副本、失败回退、云端图片管理及未引用检测批量清理。</note>
+  <description>兼容调用 Z-Blog Upload 接口的 Markdown 和富文本编辑器；PHP 7.4+，需 cURL 与 Fileinfo；云端管理另需 SimpleXML。</description>
+  <path>main.php</path>
+  <include>include.php</include>
+  <level>1</level>
+  <author><name>ZGC261</name><email></email><url>https://zgc261.com/</url></author>
+  <source><name></name><email></email><url></url></source>
+  <adapted>173000</adapted>
+  <version>1.3.6</version>
+  <pubdate>2026-10-30</pubdate>
+  <modified>2026-10-30</modified>
+  <price>0</price>
+  <advanced><dependency></dependency><rewritefunctions></rewritefunctions><conflict></conflict></advanced>
+</plugin>
